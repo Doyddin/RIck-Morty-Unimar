@@ -5,7 +5,7 @@ const character = defineProps(["name", "status", "species", "gender", "location"
 <template>
     <div class="col-md-4 g-3">
         <div class="card m-3 p-2">
-            <img :src="character.image" class="card-img-top" alt="..." height="80" />
+            <img :src="character.image" class="card-img-top" alt="..."/>
             <div class="card-body">
                 <div class="flex-column g-3">
                     <p class="fw-bold text-center">
