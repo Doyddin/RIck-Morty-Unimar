@@ -1,6 +1,5 @@
 <script setup>
 const character = defineProps(["name", "status", "species", "gender", "location", "image", "episode"])
-let episodios = character.episode
 </script>
 
 <template>
@@ -9,7 +8,7 @@ let episodios = character.episode
             <img :src="character.image" class="card-img-top" alt="..." height="80" />
             <div class="card-body">
                 <div class="flex-column g-3">
-                    <p class="card-title">
+                    <p class="fw-bold text-center">
                         {{ character.name }}
                     </p>
                     <p>
@@ -34,7 +33,4 @@ let episodios = character.episode
 </template>
 
 <style>
-.card-title{
-    font-weight: bold;
-}
 </style>
