@@ -15,6 +15,9 @@ onMounted(() => {
 
 <template>
   <div class="container">
+    <div class="text-center">
+      <h1>Listagem de Personagens de "Rick and Morty"</h1>
+    </div>
     <div class="col-sm-12 col-md-12">
       <div class="card">
         <div class="card-body row">
